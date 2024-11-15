@@ -1,9 +1,11 @@
 import React from 'react';
-import Header from './components/header';
+import Header from './components/header'; 
 
 const Home: React.FC = () => {
     return (
         <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-4 text-gray-800">
+            <Header /> {}
+
             <header className="mb-8 text-center">
                 <h1 className="text-4xl font-bold text-green-600">Economize Energia e Use Energia Limpa</h1>
                 <p className="text-lg mt-2 text-gray-600">Juntos por um futuro mais sustentável!</p>

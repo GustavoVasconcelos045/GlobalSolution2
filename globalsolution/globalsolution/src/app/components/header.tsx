@@ -2,20 +2,14 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-        <header className="p-4 h-[20vh]">
-        <header className="p-4">
-            <h1 className="text-5xl font-bold mb-4">GIF Motors</h1>
-
-            function Navbar() {
-                    <nav>
-                        <Link href="/">Início</Link>
-                        <Link href="/monitoramento">Monitoramento</Link>
-                        <Link href="/educacao">Educação</Link>
-                        <Link href="/configuracoes">Configurações</Link>
-                    </nav>
-            
-                }
-        </header>   
+        <header className="p-4 h-[20vh] flex flex-col items-center">
+            <h1 className="text-5xl font-bold mb-4">GIF Energy</h1>
+            <nav className="flex gap-x-20">
+                <Link href="/">Início</Link>
+                <Link href="/orcamento">Orçamento</Link>
+                <Link href="/educacao">Educação</Link>
+                <Link href="/integrantes">Integrantes</Link>
+            </nav>
         </header>
     );
 }
