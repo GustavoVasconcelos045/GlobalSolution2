@@ -1,9 +1,7 @@
-import React from 'react';
 import Head from 'next/head'; // Importação correta do Head
-import Header from '../components/Header';  // Verifique se o caminho está correto
-import Footer from '../components/Footer'; // Verifique se o caminho está correto
+import React from 'react';
 
-export default function SolarOrcamento() {
+const OrcamentoPage = () => {
     return (
         <div className="flex flex-col min-h-screen">
             <Head>
@@ -112,3 +110,4 @@ export default function SolarOrcamento() {
         </div>
     );
 }
+export default OrcamentoPage;
