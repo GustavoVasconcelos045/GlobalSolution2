@@ -103,10 +103,7 @@ const OrcamentoPage = () => {
                     </table>
                 </section>
             </main>
-
-            <footer className="bg-gray-800 text-white p-4 text-center">
-                <p>&copy; 2024 GIF Energy - Todos os direitos reservados.</p>
-            </footer>
+           
         </div>
     );
 }

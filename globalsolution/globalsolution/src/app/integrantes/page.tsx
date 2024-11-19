@@ -77,7 +77,7 @@ const Participantes = () => {
                     ))}
                 </div>
             </div>
-            <Footer /> {/* Adicionando o Footer aqui */}
+            <Footer /> 
         </div>
     );
 };
