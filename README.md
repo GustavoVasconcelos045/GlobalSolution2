@@ -1,19 +1,19 @@
 # GlobalSolution2
-INTEGRANTES
+#INTEGRANTES
 
 Gustavo Vasconcelos Ribeiro Dos Santos RM:558463 Turma:1TDSPG GitHub: https://github.com/GustavoVasconcelos045 
 Igor Macedo Felicori RM: 558532 Turma:1TDSPG GitHub: https://github.com/Igorfelicori 
 Felipe Santana Santos RM:558916 Turma:1TDSPG GitHub: https://github.com/FelipeSants08
 
 
-TECNOLOGIAS UTILIZADAS
+#TECNOLOGIAS UTILIZADAS
 
 Next.js com TypeScript
 Tailwind CSS para estilização
 Git e GitHub para versionamento
 Vercel para deploy e hospedagem do projeto
 
-INSTALAÇÃO E CONFIGURAÇÃO
+#INSTALAÇÃO E CONFIGURAÇÃO
 
 Clone o repositório: git clone 
 
