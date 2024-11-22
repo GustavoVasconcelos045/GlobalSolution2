@@ -6,18 +6,18 @@ Igor Macedo Felicori RM: 558532 Turma:1TDSPG GitHub: https://github.com/Igorfeli
 Felipe Santana Santos RM:558916 Turma:1TDSPG GitHub: https://github.com/FelipeSants08
 
 
-#TECNOLOGIAS UTILIZADAS
+# TECNOLOGIAS UTILIZADAS
 
 Next.js com TypeScript
 Tailwind CSS para estilização
 Git e GitHub para versionamento
 Vercel para deploy e hospedagem do projeto
 
-#INSTALAÇÃO E CONFIGURAÇÃO
+# INSTALAÇÃO E CONFIGURAÇÃO
 
 Clone o repositório: git clone 
 
-Instale as dependências: cd globalsolution (escreva 2 vezes) npm install
+Instale as dependências: cd globalsolution (escreva 2 vezes), e depois npm install
 
 Inicie o servidor de desenvolvimento: npm run dev
 
