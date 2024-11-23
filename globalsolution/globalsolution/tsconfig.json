@@ -33,7 +33,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/economia/economia.js"
+    "src/app/simulacao/economia.js"
   ],
   "exclude": [
     "node_modules"

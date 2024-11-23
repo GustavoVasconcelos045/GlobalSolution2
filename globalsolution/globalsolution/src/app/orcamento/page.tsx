@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 const OrcamentoPage = () => {
     return (
@@ -28,15 +30,43 @@ const OrcamentoPage = () => {
                 </section>
 
                 <section className="bg-white shadow-lg rounded-lg p-4 sm:p-6 mb-8">
-                    <h2 className="text-xl sm:text-2xl font-semibold mb-4">2. Custos de Equipamentos</h2>
-                    <p>
-                        O preço dos equipamentos necessários para a instalação de um sistema solar varia de acordo com o tipo e
-                        a marca:
+                    <h2 className="text-xl sm:text-2xl font-semibold mb-4">2. Tipos de Sistemas Solares</h2>
+                    <p className="mb-4">
+                        Existem dois tipos principais de sistemas de energia solar, cada um com diferentes características e custos associados:
                     </p>
-                    <ul className="list-disc pl-4 sm:pl-6 mt-4 text-sm sm:text-base">
+                    <ul className="list-disc pl-4 sm:pl-6 text-sm sm:text-base">
+                        <li>
+                            <strong>On-Grid:</strong> Este sistema está conectado à rede elétrica e é ideal para locais com
+                            acesso confiável à rede. Ele permite vender o excesso de energia gerada para a concessionária,
+                            reduzindo sua conta de luz. Não funciona em caso de falta de energia da rede.
+                        </li>
+                        <li>
+                            <strong>Off-Grid:</strong> Este sistema é independente da rede elétrica, utilizando baterias para
+                            armazenar energia. É ideal para locais remotos ou onde a energia da rede não é confiável.
+                            Geralmente é mais caro devido ao custo das baterias.
+                        </li>
+                    </ul>
+                </section>
+
+                <section className="bg-white shadow-lg rounded-lg p-4 sm:p-6 mb-8">
+                    <h2 className="text-xl sm:text-2xl font-semibold mb-4">3. Custos de Sistemas On-Grid</h2>
+                    <ul className="list-disc pl-4 sm:pl-6 text-sm sm:text-base">
                         <li><strong>Painéis Solares:</strong> De R$ 1.200 a R$ 2.500 por unidade.</li>
-                        <li><strong>Inversor Solar:</strong> Entre R$ 3.000 e R$ 7.000.</li>
+                        <li><strong>Inversor On-Grid:</strong> Entre R$ 3.000 e R$ 6.000.</li>
                         <li><strong>Estrutura de Montagem:</strong> De R$ 800 a R$ 2.500.</li>
+                        <li><strong>Instalação:</strong> De R$ 2.000 a R$ 5.000.</li>
+                        <li><strong>Licenciamento e Documentação:</strong> De R$ 500 a R$ 1.500.</li>
+                    </ul>
+                </section>
+
+                <section className="bg-white shadow-lg rounded-lg p-4 sm:p-6 mb-8">
+                    <h2 className="text-xl sm:text-2xl font-semibold mb-4">4. Custos de Sistemas Off-Grid</h2>
+                    <ul className="list-disc pl-4 sm:pl-6 text-sm sm:text-base">
+                        <li><strong>Painéis Solares:</strong> De R$ 1.200 a R$ 2.500 por unidade.</li>
+                        <li><strong>Inversor Off-Grid:</strong> Entre R$ 4.000 e R$ 10.000.</li>
+                        <li><strong>Baterias:</strong> De R$ 1.500 a R$ 5.000 por unidade (a quantidade depende do consumo).</li>
+                        <li><strong>Estrutura de Montagem:</strong> De R$ 800 a R$ 2.500.</li>
+                        <li><strong>Instalação:</strong> De R$ 3.000 a R$ 7.000.</li>
                     </ul>
                 </section>
 
@@ -56,8 +86,16 @@ const OrcamentoPage = () => {
                                     <td className="px-4 py-2">R$ 10.800 a R$ 22.500</td>
                                 </tr>
                                 <tr>
-                                    <td className="px-4 py-2">Inversor Solar</td>
-                                    <td className="px-4 py-2">R$ 3.000 a R$ 7.000</td>
+                                    <td className="px-4 py-2">Inversor Solar (On-Grid)</td>
+                                    <td className="px-4 py-2">R$ 3.000 a R$ 6.000</td>
+                                </tr>
+                                <tr>
+                                    <td className="px-4 py-2">Inversor Solar (Off-Grid)</td>
+                                    <td className="px-4 py-2">R$ 4.000 a R$ 10.000</td>
+                                </tr>
+                                <tr>
+                                    <td className="px-4 py-2">Baterias (para Off-Grid)</td>
+                                    <td className="px-4 py-2">R$ 1.500 a R$ 5.000 por unidade</td>
                                 </tr>
                                 <tr>
                                     <td className="px-4 py-2">Estrutura de Montagem</td>
@@ -65,15 +103,11 @@ const OrcamentoPage = () => {
                                 </tr>
                                 <tr>
                                     <td className="px-4 py-2">Instalação</td>
-                                    <td className="px-4 py-2">R$ 2.000 a R$ 5.000</td>
+                                    <td className="px-4 py-2">R$ 2.000 a R$ 7.000</td>
                                 </tr>
                                 <tr>
                                     <td className="px-4 py-2">Licenciamento e Documentação</td>
                                     <td className="px-4 py-2">R$ 500 a R$ 1.500</td>
-                                </tr>
-                                <tr>
-                                    <td className="px-4 py-2">Manutenção Anual (opcional)</td>
-                                    <td className="px-4 py-2">R$ 300 a R$ 800</td>
                                 </tr>
                             </tbody>
                         </table>
