@@ -1,7 +1,7 @@
 import React from 'react';
-import '../globals.css'; // Certifique-se de que este arquivo contém estilos globais necessários.
-import Header from '@/app/components/header'; // Adapte o caminho conforme a estrutura do seu projeto.
-import Footer from '@/app/components/footer'; // Adapte o caminho conforme a estrutura do seu projeto.
+import '../globals.css'; 
+import Header from '@/app/components/header'; 
+import Footer from '@/app/components/footer'; 
  
 interface LayoutProps {
     children: React.ReactNode;

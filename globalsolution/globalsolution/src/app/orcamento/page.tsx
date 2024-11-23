@@ -1,11 +1,12 @@
-import Head from 'next/head';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Head from 'next/head'; 
+import Header from '../components/header'; 
+import Footer from '../components/footer'; 
 
 const OrcamentoPage = () => {
     return (
-        <div className="flex flex-col min-h-screen">
-            <Head>
+        <div className="flex flex-col min-h-screen"> 
+
+            <Head> 
                 <title>Orçamento de Placas Solares - GIF Energy</title>
                 <meta name="description" content="Orçamento detalhado para instalação de placas solares." />
             </Head>
@@ -20,7 +21,6 @@ const OrcamentoPage = () => {
             </header>
 
             <main className="flex-grow container mx-auto p-4 sm:p-8">
-                {/** Seções do orçamento */}
                 <section className="bg-white shadow-lg rounded-lg p-4 sm:p-6 mb-8">
                     <h2 className="text-xl sm:text-2xl font-semibold mb-4">1. Avaliação Inicial</h2>
                     <p>
@@ -114,6 +114,8 @@ const OrcamentoPage = () => {
                     </div>
                 </section>
             </main>
+
+
         </div>
     );
 };
