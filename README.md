@@ -22,3 +22,6 @@ Instale as dependências: cd globalsolution (escreva 2 vezes), e depois npm inst
 Inicie o servidor de desenvolvimento: npm run dev
 
 Acesse o projeto: Abra http://localhost:3000 no navegador para ver a aplicação.
+
+# Link do video pitch
+https://youtu.be/wZL1GHyjLSY
